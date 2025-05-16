@@ -2,29 +2,27 @@
 
 namespace prog {
     Image::Image(int w, int h, const Color &fill) {
-
+        this-> w = w;
+        this-> h = h;
+        this-> pixels.assign (w*h,fill); // (number of pixels, type(cor))
     }
 
     Image::~Image() {
     }
 
     int Image::width() const {
-        return -1;
+        return w;
     }
 
     int Image::height() const {
-        return -1;
+        return h;
     }
 
-  // TODO: remove this DUMMY_color variable once you have appropriate fields for representing image pixels.
-  Color DUMMY_color;
-
-
     Color &Image::at(int x, int y) {
-		return DUMMY_color;
+		return pixels[w*(y) + x]; // (w = line) * (h_specific = y - 1 + 1) + (rest = x)
     }
 
     const Color &Image::at(int x, int y) const {
-        return DUMMY_color;
+        return pixels[w*(y) + x];
     }
 }
