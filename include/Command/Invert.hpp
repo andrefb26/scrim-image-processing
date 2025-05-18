@@ -10,7 +10,7 @@ namespace prog {
         public:
             Invert();
 
-            Image *apply(Image *img) override; //por definir
+            Image *apply(Image *img) override;
 
             std::string toString() const override;
 

@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Invert.cpp" "CMakeFiles/runscrim.dir/src/Command/Invert.cpp.obj" "gcc" "CMakeFiles/runscrim.dir/src/Command/Invert.cpp.obj.d"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Open.cpp" "CMakeFiles/runscrim.dir/src/Command/Open.cpp.obj" "gcc" "CMakeFiles/runscrim.dir/src/Command/Open.cpp.obj.d"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Save.cpp" "CMakeFiles/runscrim.dir/src/Command/Save.cpp.obj" "gcc" "CMakeFiles/runscrim.dir/src/Command/Save.cpp.obj.d"
+  "C:/Users/andre/Documents/Prog_Proj/src/Gray_scale.cpp" "CMakeFiles/runscrim.dir/src/Gray_scale.cpp.obj" "gcc" "CMakeFiles/runscrim.dir/src/Gray_scale.cpp.obj.d"
   "C:/Users/andre/Documents/Prog_Proj/src/Image.cpp" "CMakeFiles/runscrim.dir/src/Image.cpp.obj" "gcc" "CMakeFiles/runscrim.dir/src/Image.cpp.obj.d"
   "C:/Users/andre/Documents/Prog_Proj/src/Logger.cpp" "CMakeFiles/runscrim.dir/src/Logger.cpp.obj" "gcc" "CMakeFiles/runscrim.dir/src/Logger.cpp.obj.d"
   "C:/Users/andre/Documents/Prog_Proj/src/PNG.cpp" "CMakeFiles/runscrim.dir/src/PNG.cpp.obj" "gcc" "CMakeFiles/runscrim.dir/src/PNG.cpp.obj.d"

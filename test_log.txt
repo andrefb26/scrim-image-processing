@@ -245,21 +245,22 @@ Command not recognized: 'slide'
 Error while parsing command
 Scrim parse failed
 >>> [63] to_gray_scale1 <<<
-Command not recognized: 'to_gray_scale'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/pacman.png'
+Applying command 'to_gray_scale'
+Applying command 'Save filename:output/to_gray_scale1.png'
 >>> [64] to_gray_scale2 <<<
-Command not recognized: 'to_gray_scale'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/pacman.png'
+Applying command 'to_gray_scale'
+Applying command 'to_gray_scale'
+Applying command 'Save filename:output/to_gray_scale2.png'
 >>> [65] to_gray_scale3 <<<
-Command not recognized: 'to_gray_scale'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/tetris.png'
+Applying command 'to_gray_scale'
+Applying command 'Save filename:output/to_gray_scale3.png'
 >>> [66] to_gray_scale4 <<<
-Command not recognized: 'to_gray_scale'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/mandelbrot.png'
+Applying command 'to_gray_scale'
+Applying command 'Save filename:output/to_gray_scale4.png'
 >>> [67] v_mirror1 <<<
 Command not recognized: 'v_mirror'
 Error while parsing command

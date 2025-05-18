@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tester.dir/src/Command/Open.cpp.obj.d"
   "CMakeFiles/tester.dir/src/Command/Save.cpp.obj"
   "CMakeFiles/tester.dir/src/Command/Save.cpp.obj.d"
+  "CMakeFiles/tester.dir/src/Gray_scale.cpp.obj"
+  "CMakeFiles/tester.dir/src/Gray_scale.cpp.obj.d"
   "CMakeFiles/tester.dir/src/Image.cpp.obj"
   "CMakeFiles/tester.dir/src/Image.cpp.obj.d"
   "CMakeFiles/tester.dir/src/Logger.cpp.obj"

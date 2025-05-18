@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Invert.cpp" "CMakeFiles/tester.dir/src/Command/Invert.cpp.obj" "gcc" "CMakeFiles/tester.dir/src/Command/Invert.cpp.obj.d"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Open.cpp" "CMakeFiles/tester.dir/src/Command/Open.cpp.obj" "gcc" "CMakeFiles/tester.dir/src/Command/Open.cpp.obj.d"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Save.cpp" "CMakeFiles/tester.dir/src/Command/Save.cpp.obj" "gcc" "CMakeFiles/tester.dir/src/Command/Save.cpp.obj.d"
+  "C:/Users/andre/Documents/Prog_Proj/src/Gray_scale.cpp" "CMakeFiles/tester.dir/src/Gray_scale.cpp.obj" "gcc" "CMakeFiles/tester.dir/src/Gray_scale.cpp.obj.d"
   "C:/Users/andre/Documents/Prog_Proj/src/Image.cpp" "CMakeFiles/tester.dir/src/Image.cpp.obj" "gcc" "CMakeFiles/tester.dir/src/Image.cpp.obj.d"
   "C:/Users/andre/Documents/Prog_Proj/src/Logger.cpp" "CMakeFiles/tester.dir/src/Logger.cpp.obj" "gcc" "CMakeFiles/tester.dir/src/Logger.cpp.obj.d"
   "C:/Users/andre/Documents/Prog_Proj/src/PNG.cpp" "CMakeFiles/tester.dir/src/PNG.cpp.obj" "gcc" "CMakeFiles/tester.dir/src/PNG.cpp.obj.d"

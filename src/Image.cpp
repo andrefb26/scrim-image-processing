@@ -27,7 +27,7 @@ namespace prog {
     }
 
     void Image::set(int x, int y, const Color& c) {
-        pixels[y * width()+x] =c;     //adicionado pelo André
+        pixels[y * width()+x] =c;   // definir a cor de um pixel específico
 
     }
 }
