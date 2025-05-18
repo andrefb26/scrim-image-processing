@@ -2,7 +2,7 @@
 #define INVERT_HPP
 
 #include "Command.hpp"
-#include "Color.hpp"
+//#include "Color.hpp"
 
 namespace prog {
     namespace command {

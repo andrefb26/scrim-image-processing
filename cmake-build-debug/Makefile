@@ -338,6 +338,33 @@ src/Command/Open.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Open.cpp.s
 .PHONY : src/Command/Open.cpp.s
 
+src/Command/Replace.obj: src/Command/Replace.cpp.obj
+.PHONY : src/Command/Replace.obj
+
+# target to build an object file
+src/Command/Replace.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Replace.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Replace.cpp.obj
+.PHONY : src/Command/Replace.cpp.obj
+
+src/Command/Replace.i: src/Command/Replace.cpp.i
+.PHONY : src/Command/Replace.i
+
+# target to preprocess a source file
+src/Command/Replace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Replace.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Replace.cpp.i
+.PHONY : src/Command/Replace.cpp.i
+
+src/Command/Replace.s: src/Command/Replace.cpp.s
+.PHONY : src/Command/Replace.s
+
+# target to generate assembly for a file
+src/Command/Replace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Replace.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Replace.cpp.s
+.PHONY : src/Command/Replace.cpp.s
+
 src/Command/Save.obj: src/Command/Save.cpp.obj
 .PHONY : src/Command/Save.obj
 
@@ -586,6 +613,9 @@ help:
 	@echo ... src/Command/Open.obj
 	@echo ... src/Command/Open.i
 	@echo ... src/Command/Open.s
+	@echo ... src/Command/Replace.obj
+	@echo ... src/Command/Replace.i
+	@echo ... src/Command/Replace.s
 	@echo ... src/Command/Save.obj
 	@echo ... src/Command/Save.i
 	@echo ... src/Command/Save.s

@@ -23,6 +23,7 @@ add_executable(runscrim
         main/RunScrim.cpp
         src/Command/Invert.cpp
         src/Gray_scale.cpp
+        src/Command/Replace.cpp
 )
 
 # Create tester executable

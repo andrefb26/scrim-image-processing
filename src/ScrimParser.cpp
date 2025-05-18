@@ -9,6 +9,7 @@
 #include "Logger.hpp"
 #include "Command/Invert.hpp"
 #include "Command/Gray_scale.hpp"
+#include "Command/Replace.hpp"
 
 #include <fstream>
 #include <string>
@@ -94,6 +95,15 @@ namespace prog {
             return new command::Gray_scale();
 
         }
+
+        if (command_name == "replace") {
+            Color c1;
+            Color c2;
+            input>> c1>>c2;
+            return new command::Replace(c1, c2);
+
+        }
+
 
         // TODO: implement cases for the new commands
 

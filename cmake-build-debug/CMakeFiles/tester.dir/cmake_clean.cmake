@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tester.dir/src/Command/Invert.cpp.obj.d"
   "CMakeFiles/tester.dir/src/Command/Open.cpp.obj"
   "CMakeFiles/tester.dir/src/Command/Open.cpp.obj.d"
+  "CMakeFiles/tester.dir/src/Command/Replace.cpp.obj"
+  "CMakeFiles/tester.dir/src/Command/Replace.cpp.obj.d"
   "CMakeFiles/tester.dir/src/Command/Save.cpp.obj"
   "CMakeFiles/tester.dir/src/Command/Save.cpp.obj.d"
   "CMakeFiles/tester.dir/src/Gray_scale.cpp.obj"

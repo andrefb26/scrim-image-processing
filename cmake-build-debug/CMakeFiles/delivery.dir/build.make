@@ -73,6 +73,7 @@ delivery.zip: C:/Users/andre/Documents/Prog_Proj/src/Command.cpp
 delivery.zip: C:/Users/andre/Documents/Prog_Proj/src/Command/Blank.cpp
 delivery.zip: C:/Users/andre/Documents/Prog_Proj/src/Command/Invert.cpp
 delivery.zip: C:/Users/andre/Documents/Prog_Proj/src/Command/Open.cpp
+delivery.zip: C:/Users/andre/Documents/Prog_Proj/src/Command/Replace.cpp
 delivery.zip: C:/Users/andre/Documents/Prog_Proj/src/Command/Save.cpp
 delivery.zip: C:/Users/andre/Documents/Prog_Proj/src/Gray_scale.cpp
 delivery.zip: C:/Users/andre/Documents/Prog_Proj/src/Image.cpp
@@ -82,7 +83,7 @@ delivery.zip: C:/Users/andre/Documents/Prog_Proj/src/Scrim.cpp
 delivery.zip: C:/Users/andre/Documents/Prog_Proj/src/ScrimParser.cpp
 delivery.zip: C:/Users/andre/Documents/Prog_Proj/src/Utils.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Creating zip archive: C:/Users/andre/Documents/Prog_Proj/cmake-build-debug/delivery.zip"
-	cd /d C:\Users\andre\Documents\Prog_Proj && "C:\Users\andre\AppData\Local\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E tar cf C:/Users/andre/Documents/Prog_Proj/cmake-build-debug/delivery.zip --format=zip C:/Users/andre/Documents/Prog_Proj/include C:/Users/andre/Documents/Prog_Proj/src/Color.cpp C:/Users/andre/Documents/Prog_Proj/src/Command.cpp C:/Users/andre/Documents/Prog_Proj/src/Command/Blank.cpp C:/Users/andre/Documents/Prog_Proj/src/Command/Invert.cpp C:/Users/andre/Documents/Prog_Proj/src/Command/Open.cpp C:/Users/andre/Documents/Prog_Proj/src/Command/Save.cpp C:/Users/andre/Documents/Prog_Proj/src/Gray_scale.cpp C:/Users/andre/Documents/Prog_Proj/src/Image.cpp C:/Users/andre/Documents/Prog_Proj/src/Logger.cpp C:/Users/andre/Documents/Prog_Proj/src/PNG.cpp C:/Users/andre/Documents/Prog_Proj/src/Scrim.cpp C:/Users/andre/Documents/Prog_Proj/src/ScrimParser.cpp C:/Users/andre/Documents/Prog_Proj/src/Utils.cpp
+	cd /d C:\Users\andre\Documents\Prog_Proj && "C:\Users\andre\AppData\Local\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E tar cf C:/Users/andre/Documents/Prog_Proj/cmake-build-debug/delivery.zip --format=zip C:/Users/andre/Documents/Prog_Proj/include C:/Users/andre/Documents/Prog_Proj/src/Color.cpp C:/Users/andre/Documents/Prog_Proj/src/Command.cpp C:/Users/andre/Documents/Prog_Proj/src/Command/Blank.cpp C:/Users/andre/Documents/Prog_Proj/src/Command/Invert.cpp C:/Users/andre/Documents/Prog_Proj/src/Command/Open.cpp C:/Users/andre/Documents/Prog_Proj/src/Command/Replace.cpp C:/Users/andre/Documents/Prog_Proj/src/Command/Save.cpp C:/Users/andre/Documents/Prog_Proj/src/Gray_scale.cpp C:/Users/andre/Documents/Prog_Proj/src/Image.cpp C:/Users/andre/Documents/Prog_Proj/src/Logger.cpp C:/Users/andre/Documents/Prog_Proj/src/PNG.cpp C:/Users/andre/Documents/Prog_Proj/src/Scrim.cpp C:/Users/andre/Documents/Prog_Proj/src/ScrimParser.cpp C:/Users/andre/Documents/Prog_Proj/src/Utils.cpp
 
 delivery: CMakeFiles/delivery
 delivery: delivery.zip

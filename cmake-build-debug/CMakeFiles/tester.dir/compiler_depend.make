@@ -2113,14 +2113,14 @@ CMakeFiles/tester.dir/src/ScrimParser.cpp.obj: C:/Users/andre/Documents/Prog_Pro
   C:/Users/andre/Documents/Prog_Proj/include/Color.hpp \
   C:/Users/andre/Documents/Prog_Proj/include/Command.hpp \
   C:/Users/andre/Documents/Prog_Proj/include/Command/Blank.hpp \
+  C:/Users/andre/Documents/Prog_Proj/include/Command/Gray_scale.hpp \
   C:/Users/andre/Documents/Prog_Proj/include/Command/Invert.hpp \
   C:/Users/andre/Documents/Prog_Proj/include/Command/Open.hpp \
   C:/Users/andre/Documents/Prog_Proj/include/Command/Save.hpp \
   C:/Users/andre/Documents/Prog_Proj/include/Image.hpp \
   C:/Users/andre/Documents/Prog_Proj/include/Logger.hpp \
   C:/Users/andre/Documents/Prog_Proj/include/Scrim.hpp \
-  C:/Users/andre/Documents/Prog_Proj/include/ScrimParser.hpp \
-  C:/Users/andre/Documents/Prog_Proj/src/Gray_scale.hpp
+  C:/Users/andre/Documents/Prog_Proj/include/ScrimParser.hpp
 
 CMakeFiles/tester.dir/src/Utils.cpp.obj: C:/Users/andre/Documents/Prog_Proj/src/Utils.cpp \
   C:/Users/andre/AppData/Local/JetBrains/CLion\ 2024.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h \
@@ -2660,8 +2660,6 @@ C:/Users/andre/AppData/Local/JetBrains/CLion\ 2024.3.3/bin/mingw/x86_64-w64-ming
 C:/Users/andre/AppData/Local/JetBrains/CLion\ 2024.3.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
 C:/Users/andre/AppData/Local/JetBrains/CLion\ 2024.3.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h:
-
-C:/Users/andre/Documents/Prog_Proj/src/Gray_scale.hpp:
 
 C:/Users/andre/AppData/Local/JetBrains/CLion\ 2024.3.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
