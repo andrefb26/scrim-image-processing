@@ -161,17 +161,18 @@ Command not recognized: 'move'
 Error while parsing command
 Scrim parse failed
 >>> [42] replace1 <<<
-Command not recognized: 'replace'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/pacman.png'
+Applying command 'replace'
+Applying command 'Save filename:output/replace1.png'
 >>> [43] replace2 <<<
-Command not recognized: 'replace'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/lion.png'
+Applying command 'replace'
+Applying command 'Save filename:output/replace2.png'
 >>> [44] replace3 <<<
-Command not recognized: 'replace'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/dali.png'
+Applying command 'replace'
+Applying command 'replace'
+Applying command 'Save filename:output/replace3.png'
 >>> [45] resize1 <<<
 Command not recognized: 'resize'
 Error while parsing command

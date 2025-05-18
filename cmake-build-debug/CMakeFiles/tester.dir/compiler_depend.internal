@@ -2126,6 +2126,7 @@ CMakeFiles/tester.dir/src/ScrimParser.cpp.obj
  C:/Users/andre/Documents/Prog_Proj/include/Color.hpp
  C:/Users/andre/Documents/Prog_Proj/include/Command.hpp
  C:/Users/andre/Documents/Prog_Proj/include/Command/Blank.hpp
+ C:/Users/andre/Documents/Prog_Proj/include/Command/Gray_scale.hpp
  C:/Users/andre/Documents/Prog_Proj/include/Command/Invert.hpp
  C:/Users/andre/Documents/Prog_Proj/include/Command/Open.hpp
  C:/Users/andre/Documents/Prog_Proj/include/Command/Save.hpp
@@ -2133,7 +2134,6 @@ CMakeFiles/tester.dir/src/ScrimParser.cpp.obj
  C:/Users/andre/Documents/Prog_Proj/include/Logger.hpp
  C:/Users/andre/Documents/Prog_Proj/include/Scrim.hpp
  C:/Users/andre/Documents/Prog_Proj/include/ScrimParser.hpp
- C:/Users/andre/Documents/Prog_Proj/src/Gray_scale.hpp
 
 CMakeFiles/tester.dir/src/Utils.cpp.obj
  C:/Users/andre/Documents/Prog_Proj/src/Utils.cpp

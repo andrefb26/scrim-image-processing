@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/runscrim.dir/src/Command/Invert.cpp.obj.d"
   "CMakeFiles/runscrim.dir/src/Command/Open.cpp.obj"
   "CMakeFiles/runscrim.dir/src/Command/Open.cpp.obj.d"
+  "CMakeFiles/runscrim.dir/src/Command/Replace.cpp.obj"
+  "CMakeFiles/runscrim.dir/src/Command/Replace.cpp.obj.d"
   "CMakeFiles/runscrim.dir/src/Command/Save.cpp.obj"
   "CMakeFiles/runscrim.dir/src/Command/Save.cpp.obj.d"
   "CMakeFiles/runscrim.dir/src/Gray_scale.cpp.obj"

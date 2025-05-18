@@ -10,6 +10,7 @@ set(OLD_GLOB
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Blank.cpp"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Invert.cpp"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Open.cpp"
+  "C:/Users/andre/Documents/Prog_Proj/src/Command/Replace.cpp"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Save.cpp"
   "C:/Users/andre/Documents/Prog_Proj/src/Gray_scale.cpp"
   "C:/Users/andre/Documents/Prog_Proj/src/Image.cpp"
