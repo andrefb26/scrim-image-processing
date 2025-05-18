@@ -14,11 +14,6 @@ namespace prog {
         return command_name;
     }
 
-    /**
-     * Default implementation that just returns the name.
-     *
-     * @return
-     */
     std::string Command::toString() const {
         return command_name;
     }

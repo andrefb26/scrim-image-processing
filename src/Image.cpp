@@ -25,4 +25,9 @@ namespace prog {
     const Color &Image::at(int x, int y) const {
         return pixels[w*(y) + x];
     }
+
+    void Image::set(int x, int y, const Color& c) {
+        pixels[y * width()+x] =c;     //adicionado pelo André
+
+    }
 }

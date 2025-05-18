@@ -3,21 +3,22 @@
 cmake_policy(SET CMP0009 NEW)
 
 # SOURCES_BASE at CMakeLists.txt:18 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/ague7es/Documents/Prog_Proj/src/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/andre/Documents/Prog_Proj/src/*.cpp")
 set(OLD_GLOB
-  "/home/ague7es/Documents/Prog_Proj/src/Color.cpp"
-  "/home/ague7es/Documents/Prog_Proj/src/Command.cpp"
-  "/home/ague7es/Documents/Prog_Proj/src/Command/Blank.cpp"
-  "/home/ague7es/Documents/Prog_Proj/src/Command/Open.cpp"
-  "/home/ague7es/Documents/Prog_Proj/src/Command/Save.cpp"
-  "/home/ague7es/Documents/Prog_Proj/src/Image.cpp"
-  "/home/ague7es/Documents/Prog_Proj/src/Logger.cpp"
-  "/home/ague7es/Documents/Prog_Proj/src/PNG.cpp"
-  "/home/ague7es/Documents/Prog_Proj/src/Scrim.cpp"
-  "/home/ague7es/Documents/Prog_Proj/src/ScrimParser.cpp"
-  "/home/ague7es/Documents/Prog_Proj/src/Utils.cpp"
+  "C:/Users/andre/Documents/Prog_Proj/src/Color.cpp"
+  "C:/Users/andre/Documents/Prog_Proj/src/Command.cpp"
+  "C:/Users/andre/Documents/Prog_Proj/src/Command/Blank.cpp"
+  "C:/Users/andre/Documents/Prog_Proj/src/Command/Invert.cpp"
+  "C:/Users/andre/Documents/Prog_Proj/src/Command/Open.cpp"
+  "C:/Users/andre/Documents/Prog_Proj/src/Command/Save.cpp"
+  "C:/Users/andre/Documents/Prog_Proj/src/Image.cpp"
+  "C:/Users/andre/Documents/Prog_Proj/src/Logger.cpp"
+  "C:/Users/andre/Documents/Prog_Proj/src/PNG.cpp"
+  "C:/Users/andre/Documents/Prog_Proj/src/Scrim.cpp"
+  "C:/Users/andre/Documents/Prog_Proj/src/ScrimParser.cpp"
+  "C:/Users/andre/Documents/Prog_Proj/src/Utils.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/ague7es/Documents/Prog_Proj/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/andre/Documents/Prog_Proj/cmake-build-debug/CMakeFiles/cmake.verify_globs")
 endif()
