@@ -365,6 +365,33 @@ src/Command/Save.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Save.cpp.s
 .PHONY : src/Command/Save.cpp.s
 
+src/Gray_scale.obj: src/Gray_scale.cpp.obj
+.PHONY : src/Gray_scale.obj
+
+# target to build an object file
+src/Gray_scale.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Gray_scale.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Gray_scale.cpp.obj
+.PHONY : src/Gray_scale.cpp.obj
+
+src/Gray_scale.i: src/Gray_scale.cpp.i
+.PHONY : src/Gray_scale.i
+
+# target to preprocess a source file
+src/Gray_scale.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Gray_scale.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Gray_scale.cpp.i
+.PHONY : src/Gray_scale.cpp.i
+
+src/Gray_scale.s: src/Gray_scale.cpp.s
+.PHONY : src/Gray_scale.s
+
+# target to generate assembly for a file
+src/Gray_scale.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Gray_scale.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Gray_scale.cpp.s
+.PHONY : src/Gray_scale.cpp.s
+
 src/Image.obj: src/Image.cpp.obj
 .PHONY : src/Image.obj
 
@@ -562,6 +589,9 @@ help:
 	@echo ... src/Command/Save.obj
 	@echo ... src/Command/Save.i
 	@echo ... src/Command/Save.s
+	@echo ... src/Gray_scale.obj
+	@echo ... src/Gray_scale.i
+	@echo ... src/Gray_scale.s
 	@echo ... src/Image.obj
 	@echo ... src/Image.i
 	@echo ... src/Image.s

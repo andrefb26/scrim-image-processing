@@ -8,11 +8,14 @@
 #include "Command/Open.hpp"
 #include "Logger.hpp"
 #include "Command/Invert.hpp"
+#include "Command/Gray_scale.hpp"
 
 #include <fstream>
 #include <string>
 #include <vector>
 #include <cstdlib>
+
+
 
 using std::ifstream;
 using std::istream;
@@ -84,6 +87,11 @@ namespace prog {
 
         if (command_name == "invert") {
             return new command::Invert();
+
+        }
+
+        if (command_name == "to_gray_scale") {
+            return new command::Gray_scale();
 
         }
 

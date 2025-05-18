@@ -158,11 +158,26 @@ CMakeFiles/runscrim.dir/src/Command/Save.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/Save.cpp.s"
 	C:\Users\andre\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\andre\Documents\Prog_Proj\src\Command\Save.cpp -o CMakeFiles\runscrim.dir\src\Command\Save.cpp.s
 
+CMakeFiles/runscrim.dir/src/Gray_scale.cpp.obj: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Gray_scale.cpp.obj: CMakeFiles/runscrim.dir/includes_CXX.rsp
+CMakeFiles/runscrim.dir/src/Gray_scale.cpp.obj: C:/Users/andre/Documents/Prog_Proj/src/Gray_scale.cpp
+CMakeFiles/runscrim.dir/src/Gray_scale.cpp.obj: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/runscrim.dir/src/Gray_scale.cpp.obj"
+	C:\Users\andre\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Gray_scale.cpp.obj -MF CMakeFiles\runscrim.dir\src\Gray_scale.cpp.obj.d -o CMakeFiles\runscrim.dir\src\Gray_scale.cpp.obj -c C:\Users\andre\Documents\Prog_Proj\src\Gray_scale.cpp
+
+CMakeFiles/runscrim.dir/src/Gray_scale.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Gray_scale.cpp.i"
+	C:\Users\andre\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\Documents\Prog_Proj\src\Gray_scale.cpp > CMakeFiles\runscrim.dir\src\Gray_scale.cpp.i
+
+CMakeFiles/runscrim.dir/src/Gray_scale.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Gray_scale.cpp.s"
+	C:\Users\andre\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\andre\Documents\Prog_Proj\src\Gray_scale.cpp -o CMakeFiles\runscrim.dir\src\Gray_scale.cpp.s
+
 CMakeFiles/runscrim.dir/src/Image.cpp.obj: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Image.cpp.obj: CMakeFiles/runscrim.dir/includes_CXX.rsp
 CMakeFiles/runscrim.dir/src/Image.cpp.obj: C:/Users/andre/Documents/Prog_Proj/src/Image.cpp
 CMakeFiles/runscrim.dir/src/Image.cpp.obj: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/runscrim.dir/src/Image.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/runscrim.dir/src/Image.cpp.obj"
 	C:\Users\andre\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Image.cpp.obj -MF CMakeFiles\runscrim.dir\src\Image.cpp.obj.d -o CMakeFiles\runscrim.dir\src\Image.cpp.obj -c C:\Users\andre\Documents\Prog_Proj\src\Image.cpp
 
 CMakeFiles/runscrim.dir/src/Image.cpp.i: cmake_force
@@ -177,7 +192,7 @@ CMakeFiles/runscrim.dir/src/Logger.cpp.obj: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Logger.cpp.obj: CMakeFiles/runscrim.dir/includes_CXX.rsp
 CMakeFiles/runscrim.dir/src/Logger.cpp.obj: C:/Users/andre/Documents/Prog_Proj/src/Logger.cpp
 CMakeFiles/runscrim.dir/src/Logger.cpp.obj: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/runscrim.dir/src/Logger.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/runscrim.dir/src/Logger.cpp.obj"
 	C:\Users\andre\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Logger.cpp.obj -MF CMakeFiles\runscrim.dir\src\Logger.cpp.obj.d -o CMakeFiles\runscrim.dir\src\Logger.cpp.obj -c C:\Users\andre\Documents\Prog_Proj\src\Logger.cpp
 
 CMakeFiles/runscrim.dir/src/Logger.cpp.i: cmake_force
@@ -192,7 +207,7 @@ CMakeFiles/runscrim.dir/src/PNG.cpp.obj: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/PNG.cpp.obj: CMakeFiles/runscrim.dir/includes_CXX.rsp
 CMakeFiles/runscrim.dir/src/PNG.cpp.obj: C:/Users/andre/Documents/Prog_Proj/src/PNG.cpp
 CMakeFiles/runscrim.dir/src/PNG.cpp.obj: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/runscrim.dir/src/PNG.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/runscrim.dir/src/PNG.cpp.obj"
 	C:\Users\andre\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/PNG.cpp.obj -MF CMakeFiles\runscrim.dir\src\PNG.cpp.obj.d -o CMakeFiles\runscrim.dir\src\PNG.cpp.obj -c C:\Users\andre\Documents\Prog_Proj\src\PNG.cpp
 
 CMakeFiles/runscrim.dir/src/PNG.cpp.i: cmake_force
@@ -207,7 +222,7 @@ CMakeFiles/runscrim.dir/src/Scrim.cpp.obj: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Scrim.cpp.obj: CMakeFiles/runscrim.dir/includes_CXX.rsp
 CMakeFiles/runscrim.dir/src/Scrim.cpp.obj: C:/Users/andre/Documents/Prog_Proj/src/Scrim.cpp
 CMakeFiles/runscrim.dir/src/Scrim.cpp.obj: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/runscrim.dir/src/Scrim.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/runscrim.dir/src/Scrim.cpp.obj"
 	C:\Users\andre\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Scrim.cpp.obj -MF CMakeFiles\runscrim.dir\src\Scrim.cpp.obj.d -o CMakeFiles\runscrim.dir\src\Scrim.cpp.obj -c C:\Users\andre\Documents\Prog_Proj\src\Scrim.cpp
 
 CMakeFiles/runscrim.dir/src/Scrim.cpp.i: cmake_force
@@ -222,7 +237,7 @@ CMakeFiles/runscrim.dir/src/ScrimParser.cpp.obj: CMakeFiles/runscrim.dir/flags.m
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.obj: CMakeFiles/runscrim.dir/includes_CXX.rsp
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.obj: C:/Users/andre/Documents/Prog_Proj/src/ScrimParser.cpp
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.obj: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/runscrim.dir/src/ScrimParser.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/runscrim.dir/src/ScrimParser.cpp.obj"
 	C:\Users\andre\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/ScrimParser.cpp.obj -MF CMakeFiles\runscrim.dir\src\ScrimParser.cpp.obj.d -o CMakeFiles\runscrim.dir\src\ScrimParser.cpp.obj -c C:\Users\andre\Documents\Prog_Proj\src\ScrimParser.cpp
 
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.i: cmake_force
@@ -237,7 +252,7 @@ CMakeFiles/runscrim.dir/src/Utils.cpp.obj: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Utils.cpp.obj: CMakeFiles/runscrim.dir/includes_CXX.rsp
 CMakeFiles/runscrim.dir/src/Utils.cpp.obj: C:/Users/andre/Documents/Prog_Proj/src/Utils.cpp
 CMakeFiles/runscrim.dir/src/Utils.cpp.obj: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/runscrim.dir/src/Utils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/runscrim.dir/src/Utils.cpp.obj"
 	C:\Users\andre\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Utils.cpp.obj -MF CMakeFiles\runscrim.dir\src\Utils.cpp.obj.d -o CMakeFiles\runscrim.dir\src\Utils.cpp.obj -c C:\Users\andre\Documents\Prog_Proj\src\Utils.cpp
 
 CMakeFiles/runscrim.dir/src/Utils.cpp.i: cmake_force
@@ -252,7 +267,7 @@ CMakeFiles/runscrim.dir/main/RunScrim.cpp.obj: CMakeFiles/runscrim.dir/flags.mak
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.obj: CMakeFiles/runscrim.dir/includes_CXX.rsp
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.obj: C:/Users/andre/Documents/Prog_Proj/main/RunScrim.cpp
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.obj: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/runscrim.dir/main/RunScrim.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/runscrim.dir/main/RunScrim.cpp.obj"
 	C:\Users\andre\AppData\Local\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/main/RunScrim.cpp.obj -MF CMakeFiles\runscrim.dir\main\RunScrim.cpp.obj.d -o CMakeFiles\runscrim.dir\main\RunScrim.cpp.obj -c C:\Users\andre\Documents\Prog_Proj\main\RunScrim.cpp
 
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.i: cmake_force
@@ -271,6 +286,7 @@ runscrim_OBJECTS = \
 "CMakeFiles/runscrim.dir/src/Command/Invert.cpp.obj" \
 "CMakeFiles/runscrim.dir/src/Command/Open.cpp.obj" \
 "CMakeFiles/runscrim.dir/src/Command/Save.cpp.obj" \
+"CMakeFiles/runscrim.dir/src/Gray_scale.cpp.obj" \
 "CMakeFiles/runscrim.dir/src/Image.cpp.obj" \
 "CMakeFiles/runscrim.dir/src/Logger.cpp.obj" \
 "CMakeFiles/runscrim.dir/src/PNG.cpp.obj" \
@@ -288,6 +304,7 @@ runscrim.exe: CMakeFiles/runscrim.dir/src/Command/Blank.cpp.obj
 runscrim.exe: CMakeFiles/runscrim.dir/src/Command/Invert.cpp.obj
 runscrim.exe: CMakeFiles/runscrim.dir/src/Command/Open.cpp.obj
 runscrim.exe: CMakeFiles/runscrim.dir/src/Command/Save.cpp.obj
+runscrim.exe: CMakeFiles/runscrim.dir/src/Gray_scale.cpp.obj
 runscrim.exe: CMakeFiles/runscrim.dir/src/Image.cpp.obj
 runscrim.exe: CMakeFiles/runscrim.dir/src/Logger.cpp.obj
 runscrim.exe: CMakeFiles/runscrim.dir/src/PNG.cpp.obj
@@ -299,7 +316,7 @@ runscrim.exe: CMakeFiles/runscrim.dir/build.make
 runscrim.exe: CMakeFiles/runscrim.dir/linkLibs.rsp
 runscrim.exe: CMakeFiles/runscrim.dir/objects1.rsp
 runscrim.exe: CMakeFiles/runscrim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable runscrim.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\andre\Documents\Prog_Proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable runscrim.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\runscrim.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

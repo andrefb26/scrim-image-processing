@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/runscrim.dir/src/Command/Open.cpp.obj.d"
   "CMakeFiles/runscrim.dir/src/Command/Save.cpp.obj"
   "CMakeFiles/runscrim.dir/src/Command/Save.cpp.obj.d"
+  "CMakeFiles/runscrim.dir/src/Gray_scale.cpp.obj"
+  "CMakeFiles/runscrim.dir/src/Gray_scale.cpp.obj.d"
   "CMakeFiles/runscrim.dir/src/Image.cpp.obj"
   "CMakeFiles/runscrim.dir/src/Image.cpp.obj.d"
   "CMakeFiles/runscrim.dir/src/Logger.cpp.obj"
