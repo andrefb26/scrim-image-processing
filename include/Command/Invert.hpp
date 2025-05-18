@@ -1,0 +1,23 @@
+#ifndef INVERT_HPP
+#define INVERT_HPP
+
+#include "Command.hpp"
+#include "Color.hpp"
+
+namespace prog {
+    namespace command {
+        class Invert : public Command {
+        public:
+            Invert();
+
+            Image *apply(Image *img) override; //por definir
+
+            std::string toString() const override;
+
+        };
+    }
+}
+
+
+
+#endif //INVERT_HPP

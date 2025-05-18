@@ -88,7 +88,7 @@ Command not recognized: 'add'
 Error while parsing command
 Scrim parse failed
 >>> [24] extra3 <<<
-Command not recognized: 'invert'
+Command not recognized: 'rotate_left'
 Error while parsing command
 Scrim parse failed
 >>> [25] extra4 <<<
@@ -128,21 +128,22 @@ Command not recognized: 'h_mirror'
 Error while parsing command
 Scrim parse failed
 >>> [34] invert1 <<<
-Command not recognized: 'invert'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/xkcd.png'
+Applying command 'invert'
+Applying command 'Save filename:output/invert1.png'
 >>> [35] invert2 <<<
-Command not recognized: 'invert'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/xkcd.png'
+Applying command 'invert'
+Applying command 'invert'
+Applying command 'Save filename:output/invert2.png'
 >>> [36] invert3 <<<
-Command not recognized: 'invert'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/dilbert.png'
+Applying command 'invert'
+Applying command 'Save filename:output/invert3.png'
 >>> [37] invert4 <<<
-Command not recognized: 'invert'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/escher-angels-demons.png'
+Applying command 'invert'
+Applying command 'Save filename:output/invert4.png'
 >>> [38] move1 <<<
 Command not recognized: 'move'
 Error while parsing command
