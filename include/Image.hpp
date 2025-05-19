@@ -6,6 +6,7 @@
 
 namespace prog {
     class Image {
+
     private:
 		int w,h;
         std::vector<Color> pixels; // "list" of every pixel in the w and l
@@ -23,7 +24,7 @@ namespace prog {
 
         const Color &at(int x, int y) const;
 
-        void set(int x,int y, const Color& c); // adicionado pelo André
+        void set(int x,int y, const Color& c); //adicionado pelo André
     };
 }
 #endif

@@ -1,9 +1,12 @@
-#include "Color.hpp"
-#include "Image.hpp"
-#include "Command/Gray_scale.hpp"
+#include "../../include/Color.hpp"
+#include "../../include/Image.hpp"
+#include "../../include/Command/Gray_scale.hpp"
+#include <sstream>
 
 namespace prog {
     namespace command {
+
+        Gray_scale::~Gray_scale(){};
 
         Gray_scale::Gray_scale(): Command("to_gray_scale"){}
 
@@ -20,7 +23,9 @@ namespace prog {
             return img;
         }
         std::string Gray_scale::toString() const {
-            return "to_gray_scale";
+            std::ostringstream ss;
+            ss << name();
+            return ss.str();
         }
 
     }
