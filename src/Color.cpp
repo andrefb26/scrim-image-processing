@@ -4,6 +4,7 @@
 using std::istream;
 
 namespace prog {
+    Color::~Color(){}
     Color::Color() {
         this->r = 0;
         this->g = 0;

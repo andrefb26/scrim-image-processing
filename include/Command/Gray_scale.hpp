@@ -9,6 +9,7 @@ namespace prog {
     namespace command {
         class Gray_scale : public Command {
         public:
+            ~Gray_scale();
             Gray_scale();
 
             Image *apply(Image *img) override;
