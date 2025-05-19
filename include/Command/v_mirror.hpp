@@ -1,0 +1,14 @@
+#include "Command.hpp"
+#ifndef V_MIRROR_HPP
+#define V_MIRROR_HPP
+namespace prog{
+    namespace command{
+        class v_mirror:public Command{
+        public:
+            v_mirror();
+            ~v_mirror();
+            Image *apply(Image *img) override;
+        };
+    }
+}
+#endif //V_MIRROR_HPP

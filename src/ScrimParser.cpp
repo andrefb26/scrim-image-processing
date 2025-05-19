@@ -11,6 +11,8 @@
 #include "Command/Gray_scale.hpp"
 #include "Command/Replace.hpp"
 #include "Command/Move.hpp"
+#include "Command/h_mirror.hpp"
+#include "Command/v_mirror.hpp"
 
 #include <fstream>
 #include <string>
@@ -117,6 +119,13 @@ namespace prog {
 
             return new command::Move(xm,ym);
 
+        }
+
+        if (command_name == "h_mirror") {
+            return new command::h_mirror();
+        }
+        if (command_name == "v_mirror") {
+            return new command::v_mirror();
         }
 
 

@@ -26,6 +26,10 @@ add_executable(runscrim
         src/Command/Replace.cpp
         src/Command/Move.cpp
         include/Command/Move.hpp
+        include/Command/v_mirror.hpp
+        src/Command/v_mirror.cpp
+        include/Command/h_mirror.hpp
+        src/Command/h_mirror.cpp
 )
 
 # Create tester executable
