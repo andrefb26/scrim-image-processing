@@ -152,4 +152,6 @@ CMakeFiles/tester.dir/src/Command/Invert.cpp.obj: \
  C:/Users/andre/AppData/Local/JetBrains/CLion\ 2024.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
  C:/Users/andre/Documents/Prog_Proj/include/Command/Invert.hpp \
  C:/Users/andre/Documents/Prog_Proj/include/Command.hpp \
- C:/Users/andre/Documents/Prog_Proj/include/Image.hpp
+ C:/Users/andre/Documents/Prog_Proj/include/Image.hpp \
+ C:/Users/andre/AppData/Local/JetBrains/CLion\ 2024.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
+ C:/Users/andre/AppData/Local/JetBrains/CLion\ 2024.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc

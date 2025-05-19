@@ -284,6 +284,33 @@ src/Command/Blank.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Blank.cpp.s
 .PHONY : src/Command/Blank.cpp.s
 
+src/Command/Gray_scale.obj: src/Command/Gray_scale.cpp.obj
+.PHONY : src/Command/Gray_scale.obj
+
+# target to build an object file
+src/Command/Gray_scale.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Gray_scale.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Gray_scale.cpp.obj
+.PHONY : src/Command/Gray_scale.cpp.obj
+
+src/Command/Gray_scale.i: src/Command/Gray_scale.cpp.i
+.PHONY : src/Command/Gray_scale.i
+
+# target to preprocess a source file
+src/Command/Gray_scale.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Gray_scale.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Gray_scale.cpp.i
+.PHONY : src/Command/Gray_scale.cpp.i
+
+src/Command/Gray_scale.s: src/Command/Gray_scale.cpp.s
+.PHONY : src/Command/Gray_scale.s
+
+# target to generate assembly for a file
+src/Command/Gray_scale.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Gray_scale.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Gray_scale.cpp.s
+.PHONY : src/Command/Gray_scale.cpp.s
+
 src/Command/Invert.obj: src/Command/Invert.cpp.obj
 .PHONY : src/Command/Invert.obj
 
@@ -310,6 +337,33 @@ src/Command/Invert.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Invert.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Invert.cpp.s
 .PHONY : src/Command/Invert.cpp.s
+
+src/Command/Move.obj: src/Command/Move.cpp.obj
+.PHONY : src/Command/Move.obj
+
+# target to build an object file
+src/Command/Move.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Move.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Move.cpp.obj
+.PHONY : src/Command/Move.cpp.obj
+
+src/Command/Move.i: src/Command/Move.cpp.i
+.PHONY : src/Command/Move.i
+
+# target to preprocess a source file
+src/Command/Move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Move.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Move.cpp.i
+.PHONY : src/Command/Move.cpp.i
+
+src/Command/Move.s: src/Command/Move.cpp.s
+.PHONY : src/Command/Move.s
+
+# target to generate assembly for a file
+src/Command/Move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Move.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Move.cpp.s
+.PHONY : src/Command/Move.cpp.s
 
 src/Command/Open.obj: src/Command/Open.cpp.obj
 .PHONY : src/Command/Open.obj
@@ -391,33 +445,6 @@ src/Command/Save.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Save.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Save.cpp.s
 .PHONY : src/Command/Save.cpp.s
-
-src/Gray_scale.obj: src/Gray_scale.cpp.obj
-.PHONY : src/Gray_scale.obj
-
-# target to build an object file
-src/Gray_scale.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Gray_scale.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Gray_scale.cpp.obj
-.PHONY : src/Gray_scale.cpp.obj
-
-src/Gray_scale.i: src/Gray_scale.cpp.i
-.PHONY : src/Gray_scale.i
-
-# target to preprocess a source file
-src/Gray_scale.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Gray_scale.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Gray_scale.cpp.i
-.PHONY : src/Gray_scale.cpp.i
-
-src/Gray_scale.s: src/Gray_scale.cpp.s
-.PHONY : src/Gray_scale.s
-
-# target to generate assembly for a file
-src/Gray_scale.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Gray_scale.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Gray_scale.cpp.s
-.PHONY : src/Gray_scale.cpp.s
 
 src/Image.obj: src/Image.cpp.obj
 .PHONY : src/Image.obj
@@ -607,9 +634,15 @@ help:
 	@echo ... src/Command/Blank.obj
 	@echo ... src/Command/Blank.i
 	@echo ... src/Command/Blank.s
+	@echo ... src/Command/Gray_scale.obj
+	@echo ... src/Command/Gray_scale.i
+	@echo ... src/Command/Gray_scale.s
 	@echo ... src/Command/Invert.obj
 	@echo ... src/Command/Invert.i
 	@echo ... src/Command/Invert.s
+	@echo ... src/Command/Move.obj
+	@echo ... src/Command/Move.i
+	@echo ... src/Command/Move.s
 	@echo ... src/Command/Open.obj
 	@echo ... src/Command/Open.i
 	@echo ... src/Command/Open.s
@@ -619,9 +652,6 @@ help:
 	@echo ... src/Command/Save.obj
 	@echo ... src/Command/Save.i
 	@echo ... src/Command/Save.s
-	@echo ... src/Gray_scale.obj
-	@echo ... src/Gray_scale.i
-	@echo ... src/Gray_scale.s
 	@echo ... src/Image.obj
 	@echo ... src/Image.i
 	@echo ... src/Image.s

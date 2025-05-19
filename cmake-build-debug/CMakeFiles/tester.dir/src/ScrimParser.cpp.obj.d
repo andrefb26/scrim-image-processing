@@ -165,4 +165,5 @@ CMakeFiles/tester.dir/src/ScrimParser.cpp.obj: \
  C:/Users/andre/Documents/Prog_Proj/include/Logger.hpp \
  C:/Users/andre/Documents/Prog_Proj/include/Command/Invert.hpp \
  C:/Users/andre/Documents/Prog_Proj/include/Command/Gray_scale.hpp \
- C:/Users/andre/Documents/Prog_Proj/include/Command/Replace.hpp
+ C:/Users/andre/Documents/Prog_Proj/include/Command/Replace.hpp \
+ C:/Users/andre/Documents/Prog_Proj/include/Command/Move.hpp

@@ -10,6 +10,7 @@
 #include "Command/Invert.hpp"
 #include "Command/Gray_scale.hpp"
 #include "Command/Replace.hpp"
+#include "Command/Move.hpp"
 
 #include <fstream>
 #include <string>
@@ -97,10 +98,24 @@ namespace prog {
         }
 
         if (command_name == "replace") {
-            Color c1;
-            Color c2;
-            input>> c1>>c2;
-            return new command::Replace(c1, c2);
+            int r1_, g1_, b1_, r2_, g2_, b2_;
+            input>>r1_>>g1_>>b1_>>r2_>>g2_>>b2_;
+            rgb_value r1 = rgb_value(r1_);
+            rgb_value g1 = rgb_value(g1_);
+            rgb_value b1 = rgb_value(b1_);
+            rgb_value r2 = rgb_value(r2_);
+            rgb_value g2 = rgb_value(g2_);
+            rgb_value b2 = rgb_value(b2_);
+            return new command::Replace(r1, g1, b1, r2, g2, b2);
+
+        }
+
+        if (command_name == "move") {
+            int xm, ym;
+
+            input >>xm>>ym;
+
+            return new command::Move(xm,ym);
 
         }
 

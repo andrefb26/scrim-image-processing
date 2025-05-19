@@ -2,11 +2,14 @@
 #include "Color.hpp"
 #include "Image.hpp"
 #include "Command/Invert.hpp"
+#include <sstream>
 
 namespace prog {
     namespace command {
 
         Invert::Invert(): Command("invert"){}
+        Invert::~Invert() {};
+
 
         Image* Invert::apply(Image* img) {
             for (int y=0; y<img->height();y++) {
@@ -19,7 +22,9 @@ namespace prog {
             return img;
         }
         std::string Invert::toString() const {
-            return "invert";
+            std::ostringstream ss;
+            ss << name();
+            return ss.str();
         }
 
     }

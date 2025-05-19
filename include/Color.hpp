@@ -12,6 +12,7 @@ namespace prog {
 
     public:
         Color();
+        ~Color();
 
         Color(const Color &c);
 

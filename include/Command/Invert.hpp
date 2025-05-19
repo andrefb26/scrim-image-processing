@@ -8,6 +8,7 @@ namespace prog {
     namespace command {
         class Invert : public Command {
         public:
+            ~Invert();
             Invert();
 
             Image *apply(Image *img) override;
