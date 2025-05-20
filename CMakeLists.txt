@@ -30,6 +30,18 @@ add_executable(runscrim
         src/Command/v_mirror.cpp
         include/Command/h_mirror.hpp
         src/Command/h_mirror.cpp
+        include/Command/Slide.hpp
+        src/Command/Slide.cpp
+        src/Command/crop.cpp
+        include/Command/crop.hpp
+        include/Command/Resize.hpp
+        src/Command/Resize.cpp
+        include/Command/rotate_left.hpp
+        src/Command/rotate_left.cpp
+        include/Command/rotate_right.hpp
+        src/Command/rotate_right.cpp
+        include/Command/Scaleup.hpp
+        src/Command/Scaleup.cpp
 )
 
 # Create tester executable

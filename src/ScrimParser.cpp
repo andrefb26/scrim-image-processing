@@ -13,6 +13,12 @@
 #include "Command/Move.hpp"
 #include "Command/h_mirror.hpp"
 #include "Command/v_mirror.hpp"
+#include "Command/Fill.hpp"
+#include "Command/Slide.hpp"
+#include "Command/crop.hpp"
+#include "Command/Resize.hpp"
+#include "Command/rotate_left.hpp"
+#include "Command/rotate_right.hpp"
 
 #include <fstream>
 #include <string>
@@ -128,6 +134,45 @@ namespace prog {
             return new command::v_mirror();
         }
 
+        if (command_name == "fill") {
+            int x,y,w,h;
+            int r_, g_, b_;
+            input>>x>>y>>w>>h>>r_>>g_>>b_;
+            rgb_value r = rgb_value(r_);
+            rgb_value g = rgb_value(g_);
+            rgb_value b = rgb_value(b_);
+
+
+            return new command::Fill(x,y,w,h,r,g,b);
+        }
+
+        if (command_name == "slide") {
+            int xs, ys;
+
+            input >>xs>>ys;
+
+            return new command::Slide(xs,ys);
+
+        }
+
+
+        if (command_name == "crop") {
+            int x,y,w,h;
+            input >> x >> y >> w >> h;
+            return new command::crop(x,y,w,h);
+        }
+
+        if (command_name == "resize") {
+            int x,y,w,h;
+            input >> x >> y >> w >> h;
+            return new command::Resize(x,y,w,h);
+        }
+        if (command_name == "rotate_left") {
+            return new command::rotate_left();
+        }
+        if (command_name == "rotate_right") {
+            return new command::rotate_right();
+        }
 
         // TODO: implement cases for the new commands
 
