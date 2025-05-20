@@ -24,7 +24,7 @@ namespace prog {
 
         const Color &at(int x, int y) const;
 
-        void set(int x,int y, const Color& c); //adicionado pelo André
+        void set(int x,int y, const Color& c); //definir diretamente a cor de um pixel
     };
 }
 #endif

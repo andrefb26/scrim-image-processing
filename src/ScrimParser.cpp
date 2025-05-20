@@ -19,6 +19,7 @@
 #include "Command/Resize.hpp"
 #include "Command/rotate_left.hpp"
 #include "Command/rotate_right.hpp"
+#include "Command/Scaleup.hpp"
 
 #include <fstream>
 #include <string>
@@ -167,11 +168,19 @@ namespace prog {
             input >> x >> y >> w >> h;
             return new command::Resize(x,y,w,h);
         }
+
         if (command_name == "rotate_left") {
             return new command::rotate_left();
         }
+
         if (command_name == "rotate_right") {
             return new command::rotate_right();
+        }
+
+        if (command_name == "scaleup") {
+            int x,y;
+            input >> x >> y;
+            return new command::Scaleup(x,y);
         }
 
         // TODO: implement cases for the new commands

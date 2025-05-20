@@ -16,8 +16,9 @@ namespace prog {
 
                 for (int y=0; y<img->height();y++) {
                     for (int x=0; x<img->width();x++) {//percorre todos os pixéis da imagem
-                        int new_x = xs%img->width();
-                        int new_y = ys%img->height();
+
+                        int new_x = (x+xs)%img->width();
+                        int new_y = (y+ys)%img->height();
 
                         img_new->at(new_x, new_y)= img->at(x,y);
 
