@@ -20,6 +20,7 @@
 #include "Command/rotate_left.hpp"
 #include "Command/rotate_right.hpp"
 #include "Command/Scaleup.hpp"
+#include "Command/add.hpp"
 
 #include <fstream>
 #include <string>
@@ -181,6 +182,17 @@ namespace prog {
             int x,y;
             input >> x >> y;
             return new command::Scaleup(x,y);
+        }
+
+        if (command_name == "add") {
+            std::string filename;
+            int r_, g_, b_;
+            int x,y;
+            input>>filename>>r_>>g_>>b_>>x>>y;
+            rgb_value r = rgb_value(r_);
+            rgb_value g = rgb_value(g_);
+            rgb_value b = rgb_value(b_);
+            return new command::add(filename,r,g,b,x,y);
         }
 
         // TODO: implement cases for the new commands

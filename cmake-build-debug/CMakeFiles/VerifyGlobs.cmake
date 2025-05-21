@@ -18,6 +18,7 @@ set(OLD_GLOB
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Save.cpp"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Scaleup.cpp"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Slide.cpp"
+  "C:/Users/andre/Documents/Prog_Proj/src/Command/add.cpp"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/crop.cpp"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/h_mirror.cpp"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/rotate_left.cpp"

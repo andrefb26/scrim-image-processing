@@ -4,6 +4,7 @@
 #include <sstream>
 
 
+
 namespace prog {
     namespace command {
         Move::~Move(){};

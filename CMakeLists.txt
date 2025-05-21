@@ -42,6 +42,9 @@ add_executable(runscrim
         src/Command/rotate_right.cpp
         include/Command/Scaleup.hpp
         src/Command/Scaleup.cpp
+        include/Command/Chain.hpp
+        include/Command/add.hpp
+        src/Command/add.cpp
 )
 
 # Create tester executable
