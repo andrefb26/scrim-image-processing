@@ -18,7 +18,7 @@ namespace prog {
             }
             return img;
         }
-
+        //imprimir uma representação em texto do comando Fill com todos os seus parâmetros
         std::string Fill::toString() const {
             std::ostringstream ss;
             ss << name() << "x:" << x << "y:" << y << " w:" << w << " h:" << h << " r:" << r << " g:" << g << " b:" << b;

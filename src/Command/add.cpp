@@ -27,6 +27,7 @@ namespace prog {
             return img;
         }
 
+        // //imprimir uma representação em texto do comando add com todos os seus parâmetros
         std::string add::toString() const {
             std::ostringstream ss;
             ss << name() << "filename:" << filename << " r:" << r << " g:" << g << " b:" << b << "x:" << x << "y:" << y;

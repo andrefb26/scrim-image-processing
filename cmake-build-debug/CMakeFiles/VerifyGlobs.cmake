@@ -8,6 +8,7 @@ set(OLD_GLOB
   "C:/Users/andre/Documents/Prog_Proj/src/Color.cpp"
   "C:/Users/andre/Documents/Prog_Proj/src/Command.cpp"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Blank.cpp"
+  "C:/Users/andre/Documents/Prog_Proj/src/Command/Chain.cpp"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Fill.cpp"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Gray_scale.cpp"
   "C:/Users/andre/Documents/Prog_Proj/src/Command/Invert.cpp"

@@ -21,6 +21,7 @@
 #include "Command/rotate_right.hpp"
 #include "Command/Scaleup.hpp"
 #include "Command/add.hpp"
+#include "Command/Chain.hpp"
 
 #include <fstream>
 #include <string>
@@ -194,6 +195,18 @@ namespace prog {
             rgb_value b = rgb_value(b_);
             return new command::add(filename,r,g,b,x,y);
         }
+
+        if (command_name == "chain") {
+            std::vector<std::string> file_list;
+            std::string file_name;
+
+            while (input >> file_name && file_name != "end") {
+                file_list.push_back(file_name);
+            }
+
+            return new command::Chain(file_list);
+        }
+
 
         // TODO: implement cases for the new commands
 

@@ -45,6 +45,7 @@ add_executable(runscrim
         include/Command/Chain.hpp
         include/Command/add.hpp
         src/Command/add.cpp
+        src/Command/Chain.cpp
 )
 
 # Create tester executable
